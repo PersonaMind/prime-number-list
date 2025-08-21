@@ -1,7 +1,7 @@
 from datetime import datetime
-start=datetime.now()
 
 number = int(input('Number: '))
+start=datetime.now()
 
 primes = []
 for i in range(2, number):
