@@ -6,7 +6,7 @@ start=datetime.now()
 primes = []
 for i in range(2, number):
     prime = True
-    for num in range(2,3):
+    for num in range(2,9):
         if i % num == 0:
             prime = False
             break
